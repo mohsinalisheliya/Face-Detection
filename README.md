@@ -19,9 +19,6 @@ Make sure you have the following installed:
 
 ## Steps to Set Up the Project
 
-### Step 1: Clone the Repository
-
-Clone the repository to your local machine.
 
 ```bash
 git clone https://github.com/mohsinalisheliya/Face-Detection.git
