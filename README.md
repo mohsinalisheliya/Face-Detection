@@ -1,27 +1,38 @@
-# Face Detection with face-api.js
+# Face Detection Web App
 
-A real-time face detection app using face-api.js that captures webcam input, detects faces, and displays them with bounding boxes. The project features a modern UI, camera flipping, and an interactive canvas. Easily customizable for building face detection applications in the browser.
+This is a face detection web app built with `face-api.js`. It uses your webcam to detect faces in real-time, draw bounding boxes around detected faces, and display facial landmarks. The project also includes an option to flip the camera.
 
-## Features:
-- Real-time face detection using the webcam.
-- Detects multiple faces with bounding boxes.
-- Flips the camera view.
-- Interactive canvas for visualizing detection.
-- Minimal and modern UI design.
+## Features
+- Real-time face detection
+- Face bounding box and landmark detection
+- Camera flip functionality
+- Clean and minimal UI
 
-## Technologies Used:
-- face-api.js
-- HTML5
-- JavaScript
-- CSS
+## Prerequisites
 
-## How to Use:
-1. Clone the repository.
-2. Open `index.html` in a browser.
-3. Make sure to host the files on a local server (e.g., using Python or any server tool).
-4. Enjoy face detection in real-time using the webcam.
+Make sure you have the following installed:
 
-## Installation:
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/mohsinalisheliya/face-detection.git
+- [Python](https://www.python.org/downloads/)
+- [Anaconda](https://www.anaconda.com/products/individual)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+
+## Steps to Set Up the Project
+
+### Step 1: Clone the Repository
+
+Clone the repository to your local machine.
+
+```bash
+git clone https://github.com/mohsinalisheliya/Face-Detection.git
+
+
+### Explanation:
+
+1. **Step 1**: Clone the repository and navigate to the project directory.
+2. **Step 2**: Install dependencies using Anaconda and Python. It includes both Conda environment setup and the simple HTTP server method.
+3. **Step 3**: 'python -m http.server' - This will start a local server at http://localhost:8000. Open this URL in your web browser to see the app.
+4. **Step 4**: Troubleshooting section to help with common issues like missing webcam access or model files.
+5. **Step 5**: Additional enhancements, including flipping the camera or modifying the design.
+7. **License and Author**: This project is open-source and available under the MIT License.
+
