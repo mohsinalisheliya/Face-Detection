@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Model File Loading</title>
+</head>
+<body>
+  <h1>Test Model File Loading</h1>
+  <script>
+    fetch('/models/tiny_face_detector_model-weights_manifest.json')
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(err => console.error('Model file not found:', err));
+  </script>
+</body>
+</html>
